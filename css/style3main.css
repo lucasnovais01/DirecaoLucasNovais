@@ -15,16 +15,18 @@ main {
 .introducao-DRG {
     margin: 0;
     padding: 0;
-
     width: 100%;
     height: 767px;
-
-    background-color: red;
-
+    background-color: red; /* Para visualização, pode remover depois */
     display: flex;
     flex-direction: column;
 }
-.introducao-DRG h1{
-    background-color: greenyellow;
-}
 
+.introducao-DRG h1 {
+    background-color: greenyellow; /* Para visualização, pode remover depois */
+    display: flex; /* Usamos flexbox para alinhar o pseudoelemento e o texto */
+    align-items: center; /* Alinha verticalmente o quadrado com o texto */
+    /* Adicione um padding ou margin-left ao h1 para dar espaço ao quadrado */
+    padding-left: 20px; /* Exemplo de padding */
+    margin-top: 50px; /* Exemplo de margem para posicionar o título */
+}

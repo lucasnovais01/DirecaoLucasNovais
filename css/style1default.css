@@ -1,0 +1,36 @@
+:root {
+  --cor-body-background: #eaeaea;
+  --cor-faixa-verde: #2f9e41;  
+  --cor-tipografia-geral: #222;
+  --cor-menu-background: #2f9e41;
+  --cor-titulo-principal: #cd191e;
+  --cor-detalhe-background: #2f9e41;
+  --cor-tipografia-faq: #cd191e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: 'Open Sans', Arial, sans-serif;
+
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+}
+
+.padrao {
+  background-color: #ffffff;
+
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: 980px;
+
+  min-height: 1000px;
+}

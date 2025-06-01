@@ -1,7 +1,9 @@
+
 :root {
-  --cor-body-background: #eaeaea;
-  --cor-faixa-verde: #2f9e41;  
-  --cor-tipografia-geral: #222;
+  --cor-body-background: #fff;
+  --cor-tipografia-geral: #333333;
+
+  --cor-faixa-verde: #2f9e41;
   --cor-menu-background: #2f9e41;
   --cor-titulo-principal: #cd191e;
   --cor-detalhe-background: #2f9e41;
@@ -12,25 +14,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', Arial, sans-serif;
+
+  -webkit-font-smoothing: antialiased;    /* Suaviza fontes, em alguns navegadores, tipo o Chrome */
 }
 
 body {
-  background-color: #eaeaea;
-  font-family: 'Open Sans', Arial, sans-serif;
-
-  display: flex;
-  
-  flex-direction: column;
-  align-items: center;
-}
-
-.padrao {
-  background-color: #ffffff;
+  background-color: black;
 
   margin: 0 auto;
 
   width: 100%;
-  max-width: 980px;
-
+  max-width: 757px; /* Eu acho melhor 960px, IGUAL NO SITE IFSP, no Figma está 757px, e cada apresentação tinha um tamanho diferente */
   min-height: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

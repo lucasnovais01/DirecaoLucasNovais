@@ -2,7 +2,7 @@
 main {    
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: var(--cor-body-background);
 
     width: 100%;
     min-height: 100vh;
@@ -10,9 +10,21 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-.padrao {
-    
+.introducao-DRG {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 767px;
+
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
 }
+.introducao-DRG h1{
+    background-color: greenyellow;
+}
+

@@ -26,3 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
         botoes[0].classList.add('ativo');
     }
 });
+
+/*
+// Exemplo de importação de módulo JavaScript
+
+import nome-do-modulo from "./modules/nome-do-modulo.js";
+
+nome-do-modulo();
+
+*/

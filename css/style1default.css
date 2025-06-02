@@ -26,7 +26,7 @@ body {
 
   width: 100%;
   max-width: 757px; /* Eu acho melhor 960px, IGUAL NO SITE IFSP, no Figma está 757px, e cada apresentação tinha um tamanho diferente */
-  min-height: 1000px;
+  min-height: 3000px;
 
   display: flex;
   flex-direction: column;
